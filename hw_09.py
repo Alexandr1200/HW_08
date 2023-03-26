@@ -69,9 +69,6 @@ def good_bye(*args):
 def no_command(*args):
     return "Unknown command try again"
 
-@input_error
-def show_all(*args):
-    return '\n'
 
 COMMANDS = {hello: 'hello',
             add: 'add',
